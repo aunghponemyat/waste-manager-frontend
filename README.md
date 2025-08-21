@@ -1,6 +1,6 @@
-# RecyGlo
+# Waste Manager
 
-RecyGlo React is based on [Create React App](https://github.com/facebook/create-react-app). You can read full
+This project is based on [Create React App](https://github.com/facebook/create-react-app). You can read full
 [guide](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Table of Contents
@@ -74,7 +74,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 To get started follow this steps:
 
 - Install [Node](https://nodejs.org/en/).
-- Download and open this project (`cd path/to/recyglo-dashboard`).
+- Download and open this project (`cd path/to/waste-manager-frontend`).
 - Install packages: `npm install` or `yarn install`.
 - Start the project locally: `npm start` or `yarn start` (running on port 3000).
 
