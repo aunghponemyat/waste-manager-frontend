@@ -1,0 +1,55 @@
+.add-org {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  height: 100%;
+  background-color: #77EC7366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 20px;
+  padding: 80px 0 80px 0;
+  overflow: hidden;
+}
+
+.add-org::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(248, 248, 248, 0.6);
+  backdrop-filter: blur(1px);
+  z-index: 1;
+}
+
+/* Card */
+.add-org-card {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(60, 60, 60, 0.10);
+  padding: 16px 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label_form {
+  position: inherit;
+}
+
+.add-contract {
+  background: linear-gradient(180deg, #2D6E43 0%, #52DC56 100%);
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+}

@@ -1,0 +1,92 @@
+.report-title h5 {
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 30px;
+    color: #164b60;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.report-content {
+    font-family: Abhaya Libre;
+    font-size: 18px;
+    color: #000000 !important;
+    line-height: 30px;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.net-content {
+    font-family: Abhaya Libre;
+    font-size: 16px;
+    color: #000000 !important;
+    line-height: 30px;
+    width: 100%;
+}
+
+.net-content2 {
+    font-family: Abhaya Libre;
+    font-size: 16px;
+    color: #000000 !important;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.net-content3 {
+    font-family: Abhaya Libre;
+    font-size: 18px;
+    color: #000000 !important;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.emission-page {
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 30px;
+    background-color: #ffffffe8;
+    border-radius: 40px;
+}
+
+table {
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+ 
+td {
+    text-align: center;
+    font-size: 14px;
+}
+
+tr {
+    text-align: center;
+    font-size: 14px;
+}
+
+.no-graph{
+    width: 100%
+}
+
+.no-graph table {
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    margin: 25px auto;
+}
+ 
+.no-graph td {
+    text-align: center;
+}
+
+.total-block{
+    width: 100%;
+    background-color: #eacaa0;
+    padding: 30px;
+    box-shadow: 10px 10px 5px #8a7857;
+    margin-bottom: 50px;
+}

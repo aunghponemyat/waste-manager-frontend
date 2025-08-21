@@ -1,0 +1,256 @@
+.generation-page {
+  height: 100vh !important;
+  padding: 100px 30px;
+  // padding-top: 400px;
+}
+
+.generation-content {
+  height: calc(100% - 70px) !important;
+  margin: 5px 0px;
+}
+
+.generation-title {
+  background-color: #000000e0;
+  height: 450px;
+  display: inline-flex;
+  width: 100%;
+  color: transparent;
+}
+
+.generation-title > div > h5 {
+  color: white;
+  font-family: 'Abhaya Libre';
+  width: 100%;
+  font-size: 18px;
+  margin-top: 2rem;
+  line-height: 25px;
+}
+
+.generation-title > div > h4 {
+  color: white;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 20px;
+  font-size: 35px;
+  text-shadow: 4px 0px #6B6B6B;
+  font-family: 'Abhaya Libre ExtraBold';
+  margin: 5px 0px;
+}
+
+.generation-title > div > h2 {
+  color: white;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 20px;
+  width: 100%;
+  font-size: 35px;
+  text-shadow: 4px 0px #6B6B6B;
+  // rotate: 90deg;
+  font-family: 'Abhaya Libre ExtraBold';
+  margin-left: 60px;
+  margin-top: 4rem;
+}
+
+.kg {
+  color: white;
+  color: white;
+  font-weight: 500;
+  font-size: 10px;
+  font-family: 'Abhaya Libre ExtraBold';
+  margin: 5px 0px;
+}
+
+.weight {
+  color: white !important;
+  font-weight: 500;
+  font-size: 35px;
+  font-family: 'Abhaya Libre ExtraBold' !important;
+  margin: 5px 0px;
+}
+
+.generation-title > div > p {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Abhaya Libre ExtraBold';
+  text-align: right;
+  margin-top: -10rem;
+  margin-left: 6rem;
+  // rotate: 90deg;
+  width: 60%; //new changes
+  // margin-top: 10rem;
+}
+
+.list-text {
+  color: #ffffff;
+  font-family: 'Abhaya Libre ExtraBold' !important;
+  list-style: none;
+}
+
+.graph-table {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+}
+
+.graph-table td > p {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+}
+
+.graph-table td > ul {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.text ul{
+  width: 400px;
+  line-height: 2.5rem;
+}
+
+.trend-title {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.trend-title > div > h4 {
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 50px;
+  width: 110%;
+  font-weight: 800;
+  line-height: 60px;
+  color: #164B60;
+  margin-left: 100px;
+}
+
+.trend-title > div > p {
+  font-family: Abhaya Libre;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.trend-title > div > h5 {
+  font-family: Abhaya Libre;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.data span{
+  color: rgb(0, 0, 0) !important;
+  font-family: Abhaya Libre ExtraBold;
+  font-weight: 800;
+}
+
+.data h2{
+  font-family: Abhaya Libre ExtraBold;
+  color: #164B60 !important;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.data li{
+  color: rgb(0, 0, 0) !important;
+  width: 100%;
+}
+
+.data h3{
+  font-family: Abhaya Libre ExtraBold;
+  color: #164B60 !important;
+  font-weight: 800;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.data p{
+  font-family: Abhaya Libre ExtraBold;
+  color: #000000 !important;
+  font-weight: 800;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.kids {
+  width: 130%;
+  margin: -60px;
+  margin-bottom: -120px;
+  margin-top: -290px;
+}
+
+.audit-title h5{
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 36px;
+  color: #000000;
+  font-weight: 800;
+  letter-spacing: 12px;
+}
+
+.audit-title h4{
+  font-family: Abhaya Libre;
+  font-size: 18px;
+  color: #000000;
+  line-height: 60px;
+}
+
+.audit-content{
+  font-family: Abhaya Libre;
+  font-size: 18px;
+  color: #000000 !important;
+  line-height: 30px;
+  width: 35%;
+  margin-top: 25px;
+}
+
+.composition-title {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.composition-title > div > h4 {
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 50px;
+  width: 110%;
+  font-weight: 800;
+  line-height: 60px;
+  color: #164B60;
+  margin-left: 100px;
+}
+
+.composition-title > div > p {
+  font-family: Abhaya Libre;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.composition-title > div > h5 {
+  color: black;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-shadow: 2px 0px #6B6B6B;
+  font-family: 'Abhaya Libre ExtraBold';
+}

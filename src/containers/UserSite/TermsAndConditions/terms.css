@@ -1,0 +1,14 @@
+.thankyou__header {
+    font-size: 35px;
+    color: #14c23f !important;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.with-shadow .collapse__title,
+.with-shadow .collapse__header,
+.with-shadow summary {
+    color: #1ace26 !important;
+    font-weight: bold;
+    font-size: 13px;
+}

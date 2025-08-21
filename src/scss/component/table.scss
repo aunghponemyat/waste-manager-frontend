@@ -1,0 +1,240 @@
+.table {
+  height: fit-content;
+  &:last-child {
+    margin-bottom: 30px;
+  }
+
+  tbody td {
+    // border: 1px solid #004225;
+    padding: 10px;
+
+    @include themify($themes) {
+      color: themed('colorBlack');
+    }
+  }
+
+  // thead th {
+  //   // background-color: #9ecf19;
+  // }
+
+  thead th {
+
+    @include themify($themes) {
+      color: #292424;
+      font-weight: 400;
+      vertical-align: middle;
+      margin-bottom: 100px;
+      // border-bottom-color: themed('colorBorder');
+    }
+  }
+
+  .badge {
+    color: #ffffff;
+    padding: 6px 20px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 400;
+
+    &.badge-success {
+      background-color: $color-accent;
+    }
+
+    &.badge-warning {
+      background-color: $color-yellow;
+    }
+
+    &.badge-primary {
+      background-color: $color-blue;
+    }
+
+    &.badge-danger {
+      background-color: $color-red;
+    }
+
+    &.badge-disabled {
+      background-color: #dddddd;
+    }
+  }
+
+  &.table--bordered {
+
+    tr {
+      font-family: Poppins;
+
+      @include themify($themes) {
+        border-bottom: 1px solid themed('colorBorder');
+      }
+
+      &:last-child {
+        border-bottom-color: #292424;
+      }
+    }
+  }
+
+  &.table--head-accent {
+
+    thead {
+
+      @include themify($themes) {
+        color: themed('colorTextAdditional');
+        background-color: themed('colorHover');
+      }
+
+      th {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &.table-striped {
+
+    tbody tr:nth-of-type(odd) {
+
+      @include themify($themes) {
+        background-color: themed('colorHover');
+      }
+    }
+  }
+
+  &.table-hover {
+
+    tbody tr {
+      transition: all 0.3s;
+      cursor: pointer;
+
+      &:hover {
+
+        @include themify($themes) {
+          background-color: themed('colorBackgroundBody');
+        }
+      }
+    }
+  }
+}
+
+.react-grid-Toolbar{
+  @include themify($themes) {
+    background-color: themed('colorBackground');
+    border: None;
+  }
+}
+
+.Select-menu-outer{
+  z-index: 10000;
+  position: absolute;
+}
+
+.page-item.active .page-link{
+  background-color: #00c0d4;
+  border-color: #00c0d4;
+}
+
+.page-link{
+  color: #00c0d4;
+}
+
+.dashboard_wayType_green {
+  td{
+    color: #0fbd0f !important;
+  }
+}
+
+.dashboard_wayType_blue {
+  td{
+    color: rgb(47, 115, 240) !important;
+  }
+}
+.schedule_wayType_green {
+  background-color: #0fbd0f !important;
+  border-color: #067a0b !important;
+}
+
+.schedule_wayType_blue {
+  background-color: rgb(47, 115, 240) !important;
+  border-color: #0731bb !important;
+}
+
+.react-bootstrap-table td, th {
+  text-align: left !important;
+  font-family: Poppins;
+  vertical-align: middle;
+  color: #000000;
+  font-weight: 400;
+}
+
+.table-button {
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  gap: 10px;
+  background: rgba(119, 236, 115, 0.4);
+  border: 1px solid #2D6E43;
+  border-radius: 4px;
+}
+
+.table-icon {
+  padding: 0 0 0 15px;
+}
+
+.react-bootstrap-table input.form-control {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+.react-bootstrap-table-pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-bootstrap-table-pagination-list {
+  max-width: none;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+.react-bootstrap-table-pagination-list .page-item.active .page-link {
+  background-color: #008767 !important;
+  color: white !important;
+  border-color: #007050 !important;
+}
+
+.react-bootstrap-table-pagination-total {
+  flex: 1;
+  text-align: left;
+}
+
+.react-bootstrap-table-pagination {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px; /* optional spacing between dropdown and page list */
+}
+
+.react-bootstrap-table-pagination > .col-md-6,
+.react-bootstrap-table-pagination > .col-sm-6,
+.react-bootstrap-table-pagination > .col-xs-6,
+.react-bootstrap-table-pagination > .col-lg-6 {
+  flex: unset !important;
+  width: auto !important;
+  padding: 0 !important;
+}
+
+.react-bootstrap-table-pagination .dropdown-toggle {
+  margin-top: 20px;
+  height: 35px;
+  width: 60px;
+  background-color: #008767 !important;
+  color: white !important;
+  border-color: #007050 !important;
+  display: flex;
+  align-items: center;     /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  padding: 12px;         /* adjust as needed */
+}
+
+
+
+

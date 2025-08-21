@@ -1,0 +1,51 @@
+.calendar-wrapper {
+    background: #ffffff;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    font-family: 'Inter', sans-serif;
+}
+
+.calendar-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.calendar-subtitle {
+    text-align: center;
+    color: #38a169;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.calendar-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.calendar-controls button {
+    background-color: #38a169;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.calendar-legend {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.day.pickupTime {
+    background-color: #c6f6d5 !important;
+    /* soft green */
+    border-radius: 6px;
+}

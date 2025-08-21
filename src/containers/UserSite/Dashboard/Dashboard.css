@@ -1,0 +1,318 @@
+/* === Common Card Styling === */
+
+.dashboard-block {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* === Main Grid Layout === */
+
+.dashboard-page-content {
+    display: grid;
+    gap: 8px;
+    grid-template-areas: "summary-block summary-block" "total-waste-block total-pickups-block" "pie-chart-block bar-chart-block" "filter-block filter-block" "radial-chart-block bubble-chart-block" "trendline1-block trendline1-block" "trendline2-block trendline2-block";
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* === Grid Area Assignments === */
+
+.dashboard-summary-block {
+    grid-area: summary-block;
+    background: linear-gradient(to bottom, #2D6E43, #4EBB51);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+}
+
+.dashboard-summary-text {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.dashboard-summary-text h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-summary-text p {
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #e0f2f7;
+    max-width: 80%;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-summary-image {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.dashboard-summary-image .circle-image {
+    max-width: 200px;
+    height: auto;
+}
+
+.total-collected-waste-block {
+    grid-area: total-waste-block;
+}
+
+.total-pickups-block {
+    grid-area: total-pickups-block;
+}
+
+.pie-chart-block {
+    grid-area: pie-chart-block;
+}
+
+.bar-chart-block {
+    grid-area: bar-chart-block;
+}
+
+.radial-chart-block {
+    grid-area: radial-chart-block;
+}
+
+.bubble-chart-block {
+    grid-area: bubble-chart-block;
+}
+
+.trendline1-block {
+    grid-area: trendline1-block;
+}
+
+.trendline2-block {
+    grid-area: trendline2-block;
+}
+
+.dashboard-chart-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+/* === Filter Section === */
+
+.filter-block-full-width {
+    grid-area: filter-block;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #2D6E43, #4EBB51);
+    color: #ffffff;
+    padding: 30px 60px;
+}
+
+.filter-block-full-width .filter-label {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    display: inline-flex;
+    align-items: baseline;
+    /* key: aligns text bottoms */
+    gap: 6px;
+    /* space between main and span */
+}
+
+.filter-block-full-width .filter-label span {
+    font-size: 12px;
+    color: #e0f2f7;
+    font-family: poppins, sans-serif;
+}
+
+.filter-block-full-width .filter-controls {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter-block-full-width .filter-controls>* {
+    width: 100% !important;
+    box-sizing: border-box;
+    display: block;
+}
+
+.filter-block-full-width .month-picker-box,
+.filter-block-full-width .month-box,
+.filter-block-full-width .month-picker-input,
+.filter-block-full-width .month-box-input {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 100%;
+    border: 2px solid #188634;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #188634;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+}
+
+.filter-block-full-width .month-box-input:hover {
+    border-color: #145c28;
+}
+
+.filter-block-full-width .reset-button {
+    background-color: #4CAF50;
+    color: white;
+    font-family: poppins, sans-serif;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    width: 100%;
+    display: block;
+}
+
+.filter-block-full-width .reset-button:hover {
+    background-color: #f0f0f0;
+    color: #188634;
+}
+
+
+/* === Trendline Cards === */
+
+.dashboard-trendline-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.dashboard-trendline-card .chart-description {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+
+/* === Summary Card Styling === */
+
+.summary-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 12px;
+    height: 160px;
+    /* slightly reduced height */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 20px 10px;
+    /* add some internal spacing */
+    gap: 0px;
+    /* <-- this is the key to reduce spacing between items */
+}
+
+.summary-block:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(to bottom, #2D6E43, #4EBB51);
+}
+
+.summary-icon {
+    background-color: #e9f7ef;
+    color: #199745;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+}
+
+.summary-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #199745;
+    font-family: 'Poppins', sans-serif;
+    /* Remove any default spacing */
+}
+
+.summary-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/* === Chart Block Styling === */
+
+.total-collected-waste-block,
+.total-pickups-block {
+    background-color: white;
+    font-family: poppins, sans-serif;
+}
+
+
+/* === Responsive Fixes === */
+
+@media (max-width: 1024px) {
+    .dashboard-summary-block {
+        flex-direction: column;
+        text-align: center;
+    }
+    .dashboard-summary-text {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .dashboard-summary-text p {
+        max-width: 100%;
+    }
+    .filter-block-full-width,
+    .radial-chart-block,
+    .bubble-chart-block,
+    .trendline1-block,
+    .trendline2-block {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .dashboard-page-content {
+        grid-template-areas: "summary-block" "total-waste-block" "total-pickups-block" "pie-chart-block" "bar-chart-block" "filter-block" "radial-chart-block" "bubble-chart-block" "trendline1-block" "trendline2-block";
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .dashboard-block {
+        padding: 15px;
+    }
+    .dashboard-summary-text h2 {
+        font-size: 1.5em;
+    }
+    .dashboard-summary-text p {
+        font-size: 1em;
+    }
+    .filter-block-full-width .filter-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .filter-block-full-width .reset-button {
+        width: 100%;
+    }
+}

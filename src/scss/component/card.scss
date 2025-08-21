@@ -1,0 +1,356 @@
+.card {
+  width: 100%;
+  padding-bottom: 30px;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+
+  &.card--not-full-height {
+    height: auto;
+  }
+}
+
+.card-body {
+  padding: 30px;
+  height: 100%;
+  border-radius: 5px;
+
+  @include themify($themes) {
+    background-color: #ffffffc7;
+  }
+}
+
+.card__title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  position: relative;
+
+  &:not(:first-child) {
+    margin-top: 40px;
+  }
+
+  .subhead {
+    text-transform: none;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.7;
+    margin-top: 3px;
+  }
+
+  * {
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-size: 13px;
+  }
+}
+
+.squared-corner-theme {
+
+  .card-body {
+    border-radius: 0;
+  }
+}
+
+.blocks-with-shadow-theme {
+
+  .card-body {
+    box-shadow: 0 10px 30px 1px rgba(0, 0, 0, 0.06);
+  }
+}
+
+//card for carbon report
+.carbon-card {
+  width: auto;
+  height: 100px;
+  border: none;
+  background-color: transparent;
+
+  &.dash-card--not-full-height {
+    height: auto;
+  }
+}
+
+.carbon-card-body {
+  height: 100%;
+  border-radius: 5px;
+
+  @include themify($themes) {
+    background-color: #ffffff00;
+  }
+}
+
+//card for dashboard
+.dash-card {
+  width: 67%;
+  height: 100px;
+  border: none;
+  background-color: transparent;
+  margin-left: 130px;
+
+  &.dash-card--not-full-height {
+    height: auto;
+  }
+}
+
+.dash-card h5{
+  color: #000000;
+  line-height: 30px;
+  font-size: 16px;
+  font-family: Abhaya Libre ExtraBold;
+}
+
+.dash-card h4{
+  color: #164B60;
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.dash-card-body {
+  padding: 30px;
+  height: 100%;
+  border-radius: 5px;
+
+  @include themify($themes) {
+    background-color: #ffffffc7;
+  }
+}
+
+.dash-card__title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  position: relative;
+
+  &:not(:first-child) {
+    margin-top: 40px;
+  }
+
+  .subhead {
+    text-transform: none;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.7;
+    margin-top: 3px;
+  }
+
+  * {
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-size: 13px;
+  }
+}
+
+.squared-corner-theme {
+
+  .dash-card-body {
+    border-radius: 0;
+  }
+}
+
+.blocks-with-shadow-theme {
+
+  .dash-card-body {
+    box-shadow: 0 10px 30px 1px rgba(0, 0, 0, 0.06);
+  }
+}
+
+//card for schedule
+.schedule {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+
+  &.schedule--not-full-height {
+    height: auto;
+  }
+}
+
+.schedule h5{
+  color: #000000;
+  line-height: 30px;
+  font-size: 16px;
+  font-family: Abhaya Libre ExtraBold;
+}
+
+.schedule h4{
+  color: #164B60;
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.schedule-body {
+  padding: 30px;
+  height: 100%;
+  border-radius: 5px;
+
+  @include themify($themes) {
+    background-color: #ffffff00;
+  }
+}
+
+.schedule__title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  position: relative;
+
+  &:not(:first-child) {
+    margin-top: 40px;
+  }
+
+  .subhead {
+    text-transform: none;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.7;
+    margin-top: 3px;
+  }
+
+  * {
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-size: 13px;
+  }
+}
+
+.squared-corner-theme {
+
+  .schedule-body {
+    border-radius: 0;
+  }
+}
+
+.blocks-with-shadow-theme {
+
+  .schedule-body {
+    box-shadow: 0 10px 30px 1px rgba(0, 0, 0, 0.06);
+  }
+}
+
+//card for data
+.data-card {
+  width: 100%;
+  margin: auto;
+  height: 95%;
+  border: none;
+  font-family: Abhaya Libre;
+  background-color: transparent;
+
+  &.card--not-full-height {
+    height: auto;
+  }
+}
+
+.quiz-card {
+  width: 90%;
+  padding-left: 5%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 100px;
+
+  &.card--not-full-height {
+    height: auto;
+  }
+}
+
+.contact-card {
+  width: 100%;
+  padding-left: 5%;
+  height: 700px;
+  border: none;
+  background-color: transparent;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  font-family: Abhaya Libre;
+}
+
+.contact-card h4{
+  color: #ffffff;
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.contact-inside {
+  width: 90%;
+  padding-left: 35%;
+  height: 310px;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 100px;
+}
+
+.dash-content h4{
+  color: #00eaff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 100px;
+}
+
+.dash-content h3{
+  color: #000000;
+  font-family: Abhaya Libre;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 100px;
+}
+
+.dash-content img{
+  width: 75%;
+  margin-left: 5%;
+}
+
+.pick b{
+  color: #060606;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pick span{
+  margin-left: 20px;
+  color: #060606;
+  font-family: Abhaya Libre ExtraBold;
+}
+
+.span {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.stream {
+  background-color: #ffffff;
+}
+
+.streams {
+  background-color: #ffffff;
+}
+
+.stream h3{
+  color: #060606;
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10rem;
+  line-height: 100px;
+}
+
+.stream h4{
+  color: #060606;
+  font-family: Abhaya Libre;
+  font-size: 18px;
+  width: 50%;
+}
+
+.stream img{
+  width: 30%;
+  height: 30%;
+  margin-top: -23rem;
+  margin-left: 45rem;
+}

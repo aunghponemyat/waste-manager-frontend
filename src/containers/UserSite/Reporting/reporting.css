@@ -1,0 +1,62 @@
+.report-hero h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.report-select {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.report-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #056712;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.about-report {
+    background: #F8F9FA;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.about-report h4 {
+    color: #3f8950ff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* Adds space between select and button */
+}
+
+.custom-button {
+    background-color: #28a745;
+    /* Bootstrap success green */
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.custom-button:hover {
+    background-color: #218838;
+}

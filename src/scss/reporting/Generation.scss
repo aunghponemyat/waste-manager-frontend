@@ -1,0 +1,64 @@
+.reporting-page {
+  height: auto;
+  padding: 10px 30px;
+}
+
+.generation-content {
+  height: auto;
+  margin: 10px 0px;
+}
+
+.generation-title {
+  background-color: #b5aa0e;
+  padding: 20px;
+  display: inline-flex;
+  width: 100%;
+}
+
+.generation-title > div > h5 {
+  color: black;
+  font-weight: 500;
+}
+
+.generation-title > div > h4 {
+  color: white;
+  font-weight: 300;
+  margin: 5px 0px;
+}
+
+.generation-title > div > p {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: right;
+  padding-top: 200px;
+}
+
+.graph-table {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+}
+
+.graph-table td > p {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+}
+
+.graph-table td > ul {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.text {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.text ul{
+  width: 400px;
+  line-height: 2.5rem;
+}

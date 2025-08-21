@@ -1,0 +1,39 @@
+.summary-page {
+  height: 100vh;
+  padding: 10px 30px;
+}
+
+.summary-content {
+  height: calc(100% - 70px);
+  margin: 5px 0px;
+}
+
+.summary-title {
+  background-color: #b5aa0e;
+  padding: 20px;
+}
+
+.summary-title > h4 {
+  color: black;
+  font-weight: 700;
+}
+
+.summary-title > h4:last-child {
+  color: white;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+
+.summary-box {
+  padding: 10px 0px;
+}
+
+.summary-box > h5 {
+  color: black;
+  font-weight: 700;
+}
+
+.summary-box > p {
+  color: black;
+  font-size: 13px;
+}

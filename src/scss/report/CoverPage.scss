@@ -1,0 +1,59 @@
+.page {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items : center;
+  // vertical-align: middle;
+  // justify-content: center;
+  // align-items: center;
+  // align-content: center;
+  background-size: cover;
+}
+
+.page::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  // background-image: url('https://images.unsplash.com/photo-1499123785106-343e69e68db1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80'); 
+  // background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80');
+  // opacity: .4;
+  content: "";
+  z-index: -1;
+  background-size: cover;
+}
+
+.box {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  // color: white;
+  padding: 50px 50px;
+  margin-left: 50px;
+}
+
+.box > h1, .box > h4, .box > p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.box > h1{
+  font-weight: 900;
+  margin: 30px 0;
+}
+
+.box > h4{
+  font-weight: 700;
+}
+
+.thin-box {
+  padding-top: 50px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

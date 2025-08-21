@@ -1,0 +1,153 @@
+.contact-wrapper {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+/* Banner Section */
+
+.contact-banner {
+    background-image: url('../../shared/img/background/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.contact-banner .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px;
+    border-radius: 10px;
+    margin: auto 140px;
+}
+
+.contact-section {
+    padding: 40px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #2f7349;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+/* Card Layout */
+
+.card-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/* Contact Info Styling */
+
+.contact-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* ✅ Center vertically */
+    align-items: center;
+    /* ✅ Center horizontally */
+    text-align: center;
+    /* ✅ Center the text inside */
+    height: 100%;
+}
+
+.contact-box .info-title {
+    font-weight: bold;
+    color: #2f7349;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.info-item img {
+    width: 22px;
+    margin-top: 2px;
+}
+
+.info-item p {
+    flex: 1;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.contact-box p {
+    font-size: 14px;
+}
+
+
+/* Contact Form Styling */
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #6dae82;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* Equal Height Column Fix */
+
+.equal-height-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equal-height-row>.col-lg-6 {
+    display: flex;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-fill {
+    flex: 1 1 auto;
+}
+
+
+/* Form labels and inputs */
+
+.form-label {
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: block;
+    color: #2f7349;
+}
+
+.form-input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

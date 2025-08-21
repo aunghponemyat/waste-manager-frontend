@@ -1,0 +1,128 @@
+.quiz-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quiz-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+.quiz-subtitle {
+    font-size: 15px;
+    color: #4a5568;
+    margin-bottom: 24px;
+}
+
+.quiz-question-card {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.quiz-question-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #2f855a;
+    margin-bottom: 12px;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.quiz-radio-option {
+    font-size: 15px;
+    color: #2d3748;
+}
+
+.quiz-feedback {
+    margin-top: 10px;
+    background-color: #f0fff4;
+    border-left: 4px solid #38a169;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #2d3748;
+}
+
+.quiz-result {
+    background-color: #f7fcf7;
+    /* light gray-blue */
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    color: #2d3748;
+    border: 1px solid #38d55c;
+}
+
+.quiz-result h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #2D6E43;
+    font-weight: 700;
+}
+
+.quiz-result p {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #4a5568;
+}
+
+.quiz-result h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.quiz-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    gap: 12px;
+}
+
+.quiz-btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.quiz-btn.submit {
+    background-color: #b7f3c6;
+    color: #2D6E43;
+    border: 1px solid #00ff55;
+}
+
+.quiz-btn:disabled {
+    background-color: #e2e8f0 !important;
+    color: #a0aec0 !important;
+    cursor: not-allowed;
+    border: 1px solid #cbd5e0;
+    opacity: 0.7;
+}
+
+.quiz-btn.cancel {
+    background-color: #e2e8f0;
+    color: #2d3748;
+    border: 1px solid #cbd5e0;
+}
+
+.radio-btn.danger input[type="radio"]:checked+.radio-btn__radio-custom {
+    box-shadow: 0 0 0 1px red;
+}
+
+.quiz-radio-button.danger input[type="radio"]:checked+.radio-btn__radio-custom {
+    background-color: #ffcccc;
+    border-color: red;
+}

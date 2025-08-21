@@ -1,0 +1,194 @@
+table.calendar {
+  border-collapse: collapse;
+}
+
+table.calendar thead {
+  background-color: #eeeeee;
+  color: #555555;
+  margin-bottom: 3px;
+  border-bottom: 2px solid white;
+  font-size: 0.8em;
+}
+
+
+table.calendar thead th {
+  font-weight: normal;
+  padding: 5px 3px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+table.calendar thead th.bolder {
+  font-weight: bold;
+}
+
+table.calendar tbody {
+  font-size: 0.8em;
+}
+
+table.calendar td {
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid rgba(185, 185, 185, 0.13);
+  background-color: white;
+  min-width: 15px;
+}
+
+table.calendar tr:last-child td {
+  border-bottom: none;
+}
+
+table.calendar td.month-name {
+  font-weight: bold;
+  text-align: left;
+  cursor: default;
+  border-left: none;
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1.3em;
+}
+
+
+table.calendar td {
+  background-color: rgb(0, 191, 212);
+  border: 1px solid #8e8e8e;
+}
+
+table.calendar td.prev-month,
+table.calendar td.next-month {
+  color: transparent;
+  cursor: default;
+  pointer-events: none;
+  background-color: #ffffff;
+  // background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAABZJREFUCB1jYEADmzdv/o8iRA0BoIEAKngPeSAlnXcAAAAASUVORK5CYII=');
+}
+
+table.calendar td.week-separator {
+  pointer-events: none;
+  padding: 0;
+  width: 8px;
+  min-width: 0;
+  background-color: #ffffff;
+  // background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAABZJREFUCB1jYEADmzdv/o8iRA0BoIEAKngPeSAlnXcAAAAASUVORK5CYII=');
+}
+
+
+table.calendar td.bolder {
+  // font-weight: bold;
+}
+
+/* Single selected day */
+// table.calendar td.selected {
+  // background-color: orangered;
+//   color: white;
+//   font-weight: bold;
+// }
+
+/* Selected range */
+table.calendar td.range {
+  background-color: rgba(255,69,0, 0.7);
+  font-weight: bold;
+  color: white;
+}
+
+table.calendar td.range-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
+  background: orangered;
+}
+
+table.calendar td.range-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+  background: orangered;
+}
+
+table.calendar td.pickupDates {
+  font-weight: bold;
+  background-color: #00c0d4;
+  color: white;
+}
+
+table.calendar td.Completed {
+  font-weight: bold;
+  background-color: rgba(99, 228, 13, 0.863);
+  color: white;
+}
+
+table.calendar td.Requested {
+  font-weight: bold;
+  background-color: rgb(253, 190, 16);
+  color: white;
+}
+
+table.calendar td.Cancelled {
+  font-weight: bold;
+  background-color: rgb(180, 42, 38);
+  color: white;
+}
+
+table.calendar td.OnHold {
+  font-weight: bold;
+  background-color: rgb(23, 29, 28);
+  color: white;
+}
+
+table.calendar td.Confirmed {
+  font-weight: bold;
+  background-color: rgb(26, 137, 211);
+  color: white;
+}
+
+div.calendar-controls {
+  display: table;
+  font-size: 25px;
+  line-height: 35px;
+  font-family: 'Abhaya Libre';
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+div.calendar-controls div {
+  display: inline;
+}
+
+div.calendar-controls .current-year {
+  margin: 0 30px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 100px;
+}
+
+div.calendar-controls .control {
+  font-weight: bolder;
+  color: #000000;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+div.calendar-controls .today {
+  position: absolute;
+  right: 15px;
+  line-height: 35px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+}
+
+div#calendar {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #5A5A5A;
+  background-color: white;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

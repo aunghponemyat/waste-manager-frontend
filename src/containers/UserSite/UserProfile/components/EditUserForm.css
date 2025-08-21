@@ -1,0 +1,98 @@
+.edit-user-bg {
+    width: 90%;
+    margin: 2.5rem auto;
+    height: auto;
+    background: url('/img/water_drop.jpg') center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.edit-user-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+}
+
+.edit-user-card {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 40%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #222;
+}
+
+.form-group input {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.form-group input:focus {
+    border: 1.5px solid #2D6E43;
+    background: #fff;
+}
+
+.button-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-green {
+    background: rgba(119, 236, 115, 0.4);
+    border-color: #2D6E43;
+    color: #2D6E43;
+}
+
+.btn-green:hover {
+    background: #2D6E43;
+    color: #fff;
+}

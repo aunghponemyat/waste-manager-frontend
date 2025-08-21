@@ -1,0 +1,55 @@
+.figure-cover-page {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80');
+  // background: url('https://images.unsplash.com/photo-1499123785106-343e69e68db1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80'); 
+  background-size: cover;
+}
+
+.figure-cover-page > .content{
+  display: flex;
+  height: 100vh;
+}
+
+.figure-page-box {
+  width: 100%;
+  background-color: white;
+  align-self: flex-end;
+  padding: 10px 30px;
+}
+
+.figure-page-box-span {
+  width: 100%;
+}
+
+.figure-page-box-content {
+  margin-left: 60%;
+  text-align: left;
+}
+
+.figure-page-title {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+}
+
+#page-title{
+  width: 70%;
+  text-align: left;
+  font-size: 30px;
+  color: darkturquoise;
+  font-weight: 500;
+}
+
+#number {
+  // float: right;
+  text-align: left;
+  width: 30%;
+  font-size: 100px;
+  color: green;
+}
+
+#section-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}

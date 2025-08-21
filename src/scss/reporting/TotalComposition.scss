@@ -1,0 +1,52 @@
+.total-composition-page {
+  height: 100vh;
+  padding: 10px 30px;
+  // width: 100%;
+}
+
+.total-composition-content {
+  height: calc(100% - 70px);
+  margin: 5px 0px;
+}
+
+.total-composition-title {
+  background-color: #b5aa0e;
+  padding: 20px;
+  display: inline-flex;
+  width: 100%;
+}
+
+.total-composition-title > div > h5 {
+  color: black;
+  font-weight: 500;
+}
+
+.total-composition-title > div > h4 {
+  color: white;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+
+.total-composition-title > div > p {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: right;
+}
+
+.total-composition-detail {
+  display: block;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+.total-composition-detail > h5{
+  font-weight: 700;
+}
+
+.total-composition-detail > .recharts-responsive-container{
+  margin: 50px;
+}

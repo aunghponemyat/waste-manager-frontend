@@ -1,0 +1,64 @@
+.total-composition-page {
+  height: 100vh;
+  padding: 10px 30px;
+  // width: 100%;
+}
+
+.total-composition-content {
+  height: calc(100% - 70px);
+  margin: 5px 0px;
+}
+
+.total-composition-title {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.total-composition-title > div > h5 {
+  color: black;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-shadow: 2px 0px #6B6B6B;
+  font-family: 'Abhaya Libre ExtraBold';
+}
+
+.total-composition-title > div > h4 {
+  font-family: Abhaya Libre ExtraBold;
+  font-size: 50px;
+  width: 110%;
+  font-weight: 800;
+  line-height: 60px;
+  color: #164B60;
+  margin-left: 100px;
+}
+
+.total-composition-title > div > p {
+  font-family: Abhaya Libre;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.total-composition-detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  // padding: 20px 200px;
+}
+
+.total-composition-detail > h5{
+  font-weight: 700;
+}
+
+.total-composition-detail > .recharts-responsive-container{
+  margin: 50px;
+}
